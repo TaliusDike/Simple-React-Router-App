@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+    padding: 0;
+}
+
+.navigation-bar h1 {
+  text-align: center;
+  background-color: blue;
+  color: whitesmoke;
+}
+
+.navbar-links-container {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.navbar-links {
+  text-decoration: none;
+  margin: 2rem;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+}
+
+.navigation-bar {
+  margin: 0 auto;
+}
+
+.homepage-container,
+.aboutpage-container,
+.contactpage-container,
+.userspage-container,
+.newcontactmessage-container
+ {
+  text-align: center;
+  font-size: 1.5em;
+  width: 70%;
+  margin: 0 auto;
+}
+
+  .homepage-paragraph {
+    font-size: 20px;
+    text-align: left;
+  }
+
+
+.errorpage-container h1,
+p {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.errorpage-link {
+  margin: 0 auto;
+}
+
+.contactpage-link {
+  text-decoration: none;
+  color: blue;
+  font-size: 2em  ;
+  font-weight: 700;
+}
+
+.newcontactmessage-form {
+  width: auto;
+}
+
+.newcontactmessage-input {
+  width: 80%;
+  height: 50vh;
+
+}
+
+.newcontactmessage-container button {
+  background-color: blue;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin: 50px;
+  padding: 10px 30px;
+  border-radius: 3px;
+}
+
+.pagination-btn {
+  font-size: 2rem;
+  padding: 1.2rem 2rem;
+  margin-bottom: 1rem;
+  background-color: blue;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+
+}
+
+.pagination-btn:hover {
+  background-color: rgb(31, 31, 160);
+}
+
+.pagination-pages-btn{
+  padding: 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.pagination-flex {
+  display: flex;
+  justify-content: center;
+}
